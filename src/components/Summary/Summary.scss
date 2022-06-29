@@ -1,0 +1,32 @@
+#summary {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-top: -7rem;
+  }
+  header {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: .3rem;
+    max-width: 23rem;
+    width: 100%;
+    color: var(--title);
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    > span {
+      font-size: 2.2rem;
+      strong {
+        font-weight: 500;
+      }
+    }
+    &.total {
+      color: var(--white);
+      background-color: var(--green);
+    }
+  }
+}

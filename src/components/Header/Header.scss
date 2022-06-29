@@ -1,0 +1,43 @@
+#header {
+  background-color: var(--blue);
+  padding-bottom: 10rem;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0;
+
+    .logoImg {
+      padding: .6rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100px;
+      background-color: var(--green);
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: var(--white)
+    }
+  }
+
+  button {
+    background-color: var(--blueBtn);
+    padding: .9rem 2rem;
+    border-radius: .4rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--white);
+    transition: 200ms;
+    &:hover {
+      filter: brightness(110%);
+    }
+  }
+} 

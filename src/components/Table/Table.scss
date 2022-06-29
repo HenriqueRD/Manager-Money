@@ -1,0 +1,32 @@
+#table {
+  margin-top: 4rem;
+
+  table {
+    width: 100%;
+    text-align: left;
+    border-spacing: 0 0.5rem;
+
+    th {
+      color: var(--text);
+      font-weight: 500;
+      padding: 1rem 2rem;
+    }
+    td {
+      color: var(--text);
+      padding: 1rem 2rem;
+      border: 0;
+      background-color: var(--white);
+      border-radius: .3rem;
+
+      &.name {
+        color: var(--title);
+      }
+      &.red {
+        color: var(--red);
+      }
+      &.green {
+        color: var(--green);
+      }
+    }
+  }
+}
