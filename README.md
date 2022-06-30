@@ -6,6 +6,8 @@
   <li>React JS</li>
   <li>Phosphor Icons</li>
   <li>Sass</li>
+  <li>Axios</li>
+  <li>Mirage JS</li>
 </ul>
 <span>Layout do projeto <a href="https://www.figma.com/file/0xmu9mj2TJYoIOubBFWsk5/dtmoney-Ignite-(Copy)?node-id=1%3A863">aqui</a></span>
 <h2>Configurar e executar</h2>

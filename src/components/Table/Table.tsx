@@ -30,7 +30,7 @@ export default function Table() {
             </tr>
             <tr>
               <td className="name"></td>
-              <td className="red">R$ 12.000,00</td>Desenvolvimento de site
+              <td className="red">R$ 12.000,00</td>
               <td>Venda</td>
               <td>13/04/2021</td>
             </tr>

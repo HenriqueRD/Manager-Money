@@ -1,7 +1,12 @@
 import { CurrencyDollar } from 'phosphor-react';
 import './Header.scss'
 
-export default function Header() {
+type Modal = {
+  handleOpenModal(): void
+}
+
+export default function Header(props: Modal) {
+  
   return (
     <header id="header">
       <div className="container">
@@ -11,7 +16,7 @@ export default function Header() {
           </span>
           <h1>Manager moneY</h1>
         </div>
-        <button>Nova transação</button>
+        <button onClick={props.handleOpenModal}>Nova transação</button>
       </div>
     </header>
   );
