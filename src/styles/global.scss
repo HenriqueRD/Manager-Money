@@ -5,6 +5,8 @@
 }
 :root {
   --background: #F0F2F5;
+  --backgroundInputBorder: #D7D7D7;
+  --backgroundInput: #E7E9EE;
   --text: #969CB3;
   --title: #363F5F;
   --red: #E62E4D;
@@ -39,4 +41,22 @@ button {
 [disabled] {
   opacity: .5;
   cursor: pointer;
+}
+.newTransationModal {
+  max-width: 37rem;
+  width: 100%;
+  background-color: var(--background);
+  border-radius: .3rem;
+  padding: 3rem;
+}
+.overlayModal {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
